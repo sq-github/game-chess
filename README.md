@@ -1,5 +1,5 @@
 # game-chess
-#### 五子棋游戏，有DOM和Canvas两种棋盘。
+**五子棋游戏，DOM和Canvas两种棋盘。**  
 **体验地址：**<https://sq-github.github.io/game-chess/game>  
 **文件描述：** com.js：公共方法文件。gameCanvas.js：Canvas棋盘方法文件。gameDom.js：DOM棋盘方法文件。initGame.js：初始化页面文件。common.css：页面样式文件。game.html：页面html文件。  
 **具体方法：**   
