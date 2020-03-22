@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+    position: relative;
+    margin: 20px auto;
+    width: 850px;
+	height: 600px;
+	background-color: rgb(248, 228, 192);
+	border-radius: 10px;
+	cursor: pointer;
+}
+.board{
+    position: absolute;
+    left: 50px ;
+    top: 50px ;
+    width: 500px;
+	height: 500px;
+	background-color: rgb(172, 126, 41);
+    border-radius: 10px;
+    font-size: 0;
+}
+#chessBoard{
+    position: absolute;
+    left: 20px ;
+    top: 20px ;
+    width: 460px;
+	height: 460px;
+}
+
+.btn{
+    position: absolute;
+    width: 150px;
+	height: 60px;
+	background-color: rgb(235, 194, 118);
+    border-radius: 10px;
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+}
+.btn:hover{
+	background-color: rgb(231, 169, 53);
+}
+.btn:active{
+	background-color: rgb(235, 194, 118);
+}
+
+.restart{
+    right: 100px ;
+    top: 50px ;
+}
+.back{
+    right: 100px ;
+    top: 160px ;
+}
+.cancelBack{
+    right: 100px ;
+    top: 270px ;
+}
+.change{
+    right: 100px ;
+    top: 380px ;
+}
+.currentRound{
+    position: absolute;
+    right: 100px ;
+    top: 490px ;
+    width: 150px;
+	height: 60px;
+	background-color: rgb(235, 194, 118);
+    border-radius: 10px;
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+    cursor: default;
+}
+#currentChess{
+    position: absolute;
+    right: 45px ;
+    top: 505px ;
+    width: 30px;
+	height: 30px;
+	background-color:transparent;
+    border-radius: 50%;
+    cursor: default;
+}
+#boardTag{
+    position: absolute;
+    right: 50px ;
+    top: 400px ;
+    width: 30px;
+	height: 30px;
+	background-color:transparent;
+    border-radius: 50%;
+    cursor: default;
+}
+

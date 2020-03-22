@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./common.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="board">
+            <!-- 棋盘 -->
+            <div id="chessBoard"></div>
+        </div>
+        <a class="change btn" onclick="changeBoard();">切换棋盘</a>
+        <div id="boardTag">Canvas</div>
+        <a class="currentRound">当前回合</a>
+        <!-- 当前棋子颜色 -->
+        <div id="currentChess"></div>
+        <a class="restart btn" onclick="restart();">重新开始</a>
+        <a class=" back btn" onclick="backChess();">悔棋</a>
+        <a class="cancelBack btn" onclick="cancelBackChess();">撤销悔棋</a>
+    </div>
+    <script src='./com.js'></script>
+    <script src='./gameDom.js'></script>
+    <script src='./gameCanvas.js'></script>
+    <script src='./initGame.js'></script>
+</body>
+
+</html>
