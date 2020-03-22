@@ -1,6 +1,6 @@
 # game-chess
 ### 五子棋游戏，可以切换DOM和Canvas棋盘。
-##### 体验地址：<https://sq-github.github.io/game-chess/game>
+**体验地址：**<https://sq-github.github.io/game-chess/game>  
 **文件描述：** com.js：公共方法文件。gameCanvas.js：Canvas棋盘方法文件。gameDom.js：DOM棋盘方法文件。initGame.js：初始化页面文件。common.css：页面样式文件。game.html：页面html文件。  
 **具体方法：**   
 1、DOM棋盘：先画棋盘线条，然后画出交点处所有棋子，设置为transparent，并设置每个棋子的id。根据棋子点击事件变换当前棋子的颜色（黑、白、transparent），实现黑白棋子以及删除的交互。   
